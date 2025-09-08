@@ -1,10 +1,10 @@
-pipeline {
+peline {
     agent any
 
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/<your-username>/my-app.git'
+                git branch: 'main', url: 'https://github.com/kmcdevops/my-app.git'
             }
         }
 
@@ -25,3 +25,4 @@ pipeline {
         }
     }
 }
+
